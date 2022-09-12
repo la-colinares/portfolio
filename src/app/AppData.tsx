@@ -1,6 +1,8 @@
 import profile from './assets/profile.png';
 
 import { faFacebookMessenger, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import rageMockup from './assets/projects/rage_music.png';
+import jetpicMockup from './assets/projects/jetpic.png';
 
 export class HeroData {
     public static readonly profile = profile
@@ -18,5 +20,10 @@ export class HeroData {
 }
 
 export class ProjectsData {
-    public static readonly projects = 'Projects'
+    public static readonly projects_title = 'Projects'
+
+    public static readonly projects = [
+        { image: rageMockup, title: 'Rage Media Station', link: 'https://play.google.com/store/apps/details?id=com.lacolinares.ragemusicph'},
+        { image: jetpicMockup, title: 'Jetpic Express', link: 'https://github.com/la-colinares/JetPicExpress'},
+    ]
 }

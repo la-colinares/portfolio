@@ -1,2 +1,35 @@
-@import './variables';
+.project-content{
+    margin-top: 64px;
+
+    a{
+        background: $secondary;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        transition: 0.3s;
+
+        &:hover {
+            transition: 0.3s;
+            box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2), -8px -8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .project-card{
+    
+        .project-image{
+            object-fit: cover;
+            animation: fadeIn 1s;
+            height: 100%;
+            width: 100%;
+            border-radius: 20px 20px 0px 0px;
+            transition: 0.3s;
+        }
+
+        .project-title{
+            padding: 3vh 2vw 3vh 2vw;
+            font-size: 1.3rem;
+            text-align: center;
+            color: $white;
+        }
+    }
+}
 

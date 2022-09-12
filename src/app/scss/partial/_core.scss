@@ -9,10 +9,33 @@ body {
     color: $white;
     text-align: center;
     font-family: 'M PLUS Rounded 1c';
+    transition: .3s;
 }
 
 section{
     margin-top: 130px;
+}
+
+h1,h2,h3{
+    font-weight: 900;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .grid {
