@@ -1,2 +1,6 @@
-@import './responsive';
-@import './hero';
+body {
+    background: $primary;
+    color: $white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c';
+}
