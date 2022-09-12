@@ -1,6 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: $primary;
     color: $white;
     text-align: center;
     font-family: 'M PLUS Rounded 1c';
+}
+
+section{
+    margin-top: 130px;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
 }
