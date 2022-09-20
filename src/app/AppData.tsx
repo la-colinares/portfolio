@@ -27,3 +27,7 @@ export class ProjectsData {
         { image: jetpicMockup, title: 'Jetpic Express', link: 'https://github.com/la-colinares/JetPicExpress'},
     ]
 }
+
+export class SkillsData {
+    public static readonly skills_title = "Skills"
+}

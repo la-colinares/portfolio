@@ -1,0 +1,48 @@
+.skills-content{
+    margin-top: 24px;
+    text-align: start;
+
+    .skills-title {
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+  
+    .skills-body {
+        row-gap: 2rem;
+        padding-top:24px;
+        padding-bottom: 24px;
+
+        .skills-box {
+            display: flex;
+            justify-content: center;
+            column-gap: 3rem;
+
+            .skills-group{
+                display: grid;
+                align-content: flex-start;
+                row-gap: 2rem;
+                flex-basis: 8em;
+
+                .skills-data{
+                    display: flex;
+                    column-gap: .5rem;
+
+                    .skills-icon{
+                        color: $light-secondary;
+                    }
+
+                    .skills-name{
+                        font-weight: bold;
+                        line-height:18px;
+                        white-space: pre-line;
+                    }
+                    .skills-level{
+                        color: $grey-white;
+                    }
+                }
+            }
+        }
+    }
+}
+

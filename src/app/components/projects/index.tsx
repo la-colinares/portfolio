@@ -22,7 +22,6 @@ export default function index() {
                     )
                 }
             </div>
-
         </section>
     )
 }

@@ -48,6 +48,31 @@
     }
 }
 
+@media screen and (max-width: 575px) {
+    .skills-content .skills-body {
+        grid-template-columns: repeat(1, 332px);
+        justify-content: center;
+        .skills-box {
+            column-gap: 4rem;
+
+            .skills-group .skills-data {
+                .skills-icon {
+                    font-size: 16px;
+                }
+
+                .skills-name {
+                    font-size: 14px;
+                    line-height: 1.2;
+                }
+
+                .skills-level {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
 /* Medium Device */
 @media screen and (min-width: 576px){
     .project-content {
@@ -56,6 +81,34 @@
 
         a .project-card .project-title h3 {
             font-size: 18px;
+        }
+    }
+
+    .skills-content .skills-body {
+        grid-template-columns: repeat(2, 332px);
+        justify-content: center;
+
+        .skills-box {
+            column-gap: 3rem;
+
+            .skills-group {
+                flex-basis: 10em;
+
+                .skills-data {
+                    .skills-icon {
+                        font-size: 14px;
+                    }
+            
+                    .skills-name {
+                        font-size: 12px;
+                        line-height: 1.2;
+                    }
+            
+                    .skills-level {
+                        font-size: 10px;
+                    }
+                }
+            }
         }
     }
 }
@@ -69,6 +122,34 @@
             font-size: 18px;
         }
     }
+
+    .skills-content .skills-body {
+        grid-template-columns: repeat(2, 332px);
+        justify-content: center;
+
+        .skills-box {
+            column-gap: 2rem;
+
+            .skills-group {
+                flex-basis: 10em;
+
+                .skills-data {
+                    .skills-icon {
+                        font-size: 16px;
+                    }
+
+                    .skills-name {
+                        font-size: 14px;
+                        line-height: 1.2;
+                    }
+
+                    .skills-level {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* Large Device */
@@ -76,5 +157,33 @@
     .container{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skills-content .skills-body {
+        grid-template-columns: repeat(2, 340px);
+        justify-content: center;
+
+        .skills-box {
+            column-gap: 2.8rem;
+
+            .skills-group {
+                flex-basis: 10em;
+
+                .skills-data {
+                    .skills-icon {
+                        font-size: 16px;
+                    }
+
+                    .skills-name {
+                        font-size: 14px;
+                        line-height: 1.2;
+                    }
+
+                    .skills-level {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
     }
 }
