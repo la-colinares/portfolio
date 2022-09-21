@@ -1,0 +1,54 @@
+.contact-form{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 48px;
+    position: relative;
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        background: #FFF;
+        margin: 0 0 15px;
+        padding: 10px;
+        border-radius: 8px;
+        font-family: 'M PLUS Rounded 1c';
+        resize: none;
+
+        &:focus{
+            outline: 0;
+            border: 1px solid #aaa;
+        }
+    }
+
+    button[type="submit"] {
+        cursor: pointer;
+        width: 160px;
+        height: 48px;
+        border: none;
+        background: $secondary;
+        color: #FFF;
+        margin: 0 0 5px;
+        border-radius: 50px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 15px;
+
+        &:hover{
+            background: $dark-primary;
+            -webkit-transition: background 0.3s ease-in-out;
+            -moz-transition: background 0.3s ease-in-out;
+            transition: background-color 0.3s ease-in-out;
+        }
+    }
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
