@@ -15,7 +15,6 @@ export default function index() {
             type: toastType,
             hideProgressBar: true,
             pauseOnFocusLoss: false,
-            
         })
     }
 
