@@ -22,6 +22,31 @@
     .project-content a .project-card .project-title h3{
         font-size: 16px;
     }
+
+    .skills-content .skills-body {
+        .skills-box {
+            column-gap: 6rem;
+
+            .skills-group {
+                flex-basis: 7em;
+
+                .skills-data {
+                    .skills-icon {
+                        font-size: 14px;
+                    }
+
+                    .skills-name {
+                        font-size: 12px;
+                        line-height: 1.2;
+                    }
+
+                    .skills-level {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 375px) {
