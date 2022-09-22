@@ -41,7 +41,7 @@ export default function index() {
             <h1 className="title">Contact Me</h1>
             <form ref={form} onSubmit={sendEmail} className="contact-form row">
                 <fieldset>
-                    <input placeholder="Full Name:" type="text" name="fullName" tabIndex={1} required autoFocus/>
+                    <input placeholder="Full Name:" type="text" name="fullName" tabIndex={1} required/>
                 </fieldset>
                 <fieldset>
                     <input placeholder="Email Address:" type="email" name="email" tabIndex={2} required/>
