@@ -1,6 +1,7 @@
 import profile from './assets/profile.png';
 
 import { faFacebookMessenger, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import digidrawMockup from './assets/projects/digidraw.png';
 import bitddMockup from './assets/projects/bitdd.png';
 import rageMockup from './assets/projects/rage_music.png';
 import jetpicMockup from './assets/projects/jetpic.png';
@@ -24,6 +25,7 @@ export class ProjectsData {
     public static readonly projects_title = 'Projects'
 
     public static readonly projects = [
+        { image: digidrawMockup, title: 'DigiDraw', link: 'https://github.com/la-colinares/DigiDraw'},
         { image: bitddMockup, title: 'BITDD: Bitcoin Crypto Exchange', link: 'https://play.google.com/store/apps/details?id=com.vestbag.bitdd'},
         { image: rageMockup, title: 'Rage Media Station', link: 'https://play.google.com/store/apps/details?id=com.lacolinares.ragemusicph'},
         { image: jetpicMockup, title: 'Jetpic Express', link: 'https://github.com/la-colinares/JetPicExpress'},
